@@ -89,11 +89,20 @@ export function Experience() {
             My professional journey as a software developer, from internships to leadership roles.
           </p>
           <div className="mt-6">
-            <Button className="group relative overflow-hidden">
-              <span className="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform translate-x-full bg-purple-600 group-hover:translate-x-0"></span>
-              <span className="relative flex items-center gap-2 group-hover:text-white">
-                Download Resume <Download className="h-4 w-4" />
-              </span>
+            <Button
+              asChild
+              className="group relative overflow-hidden"
+            >
+               <a
+                  href="https://drive.google.com/file/d/1y2wMh7Qxx8wvVtyMcA7xmNteuQwAfH26/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                <span className="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform translate-x-full bg-purple-600 group-hover:translate-x-0"></span>
+                <span className="relative flex items-center gap-2 group-hover:text-white">
+                  Download Resume <Download className="h-4 w-4" />
+                </span>
+              </a>
             </Button>
           </div>
         </motion.div>

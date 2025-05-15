@@ -59,18 +59,37 @@ export function Hero() {
             </p>
 
             <div className="flex flex-wrap gap-4">
-              <Button className="group relative overflow-hidden bg-purple-600 hover:bg-purple-700">
-                <span className="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform translate-x-0 -skew-x-12 bg-purple-900 group-hover:translate-x-full group-hover:skew-x-12"></span>
-                <span className="relative flex items-center gap-2">
-                  Contact Me <Mail className="h-4 w-4" />
-                </span>
+               <Button
+                asChild
+                className="group relative overflow-hidden bg-purple-600 hover:bg-purple-700"
+              >
+                <a
+                  href="https://wa.me/628134441583"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span className="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform translate-x-0 -skew-x-12 bg-purple-900 group-hover:translate-x-full group-hover:skew-x-12"></span>
+                  <span className="relative flex items-center gap-2">
+                    Contact Me <Mail className="h-4 w-4" />
+                  </span>
+                </a>
               </Button>
 
-              <Button variant="outline" className="group relative overflow-hidden">
-                <span className="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform translate-x-full bg-purple-600 group-hover:translate-x-0"></span>
-                <span className="relative flex items-center gap-2 group-hover:text-white">
-                  Download CV <Download className="h-4 w-4" />
-                </span>
+              <Button
+                asChild
+                variant="outline"
+                className="group relative overflow-hidden"
+              >
+                <a
+                  href="https://drive.google.com/file/d/1y2wMh7Qxx8wvVtyMcA7xmNteuQwAfH26/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span className="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform translate-x-full bg-purple-600 group-hover:translate-x-0"></span>
+                  <span className="relative flex items-center gap-2 group-hover:text-white">
+                    Download CV <Download className="h-4 w-4" />
+                  </span>
+                </a>
               </Button>
             </div>
           </motion.div>

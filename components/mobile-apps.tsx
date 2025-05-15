@@ -32,6 +32,16 @@ export function MobileApps() {
       ],
       tags: ["Flutter", "Firebase", "GetX"],
     },
+    {
+      title: "Confidence Core",
+      description: "Agile Education Platform Project",
+      images: [
+        "/placeholder.svg?height=600&width=300",
+        "/placeholder.svg?height=600&width=300",
+        "/placeholder.svg?height=600&width=300",
+      ],
+      tags: ["Flutter", "Firebase", "GetX"],
+    },
   ]
 
   return (

@@ -10,7 +10,6 @@ const spaceGrotesk = Space_Grotesk({ subsets: ["latin"], variable: "--font-space
 export const metadata: Metadata = {
   title: "Adryan Prawira | Software Developer",
   description: "Portfolio website of Adryan Prawira - Software Developer | IoT | Fullstack Developer",
-  generator: "v0.dev",
 }
 
 export default function RootLayout({
