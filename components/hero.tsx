@@ -24,10 +24,10 @@ export function Hero() {
   }, [isInView, controls])
 
   const socialLinks = [
-    { href: "https://github.com/yourusername", icon: <Github className="h-5 w-5" />, label: "GitHub" },
-    { href: "https://linkedin.com/in/yourusername", icon: <Linkedin className="h-5 w-5" />, label: "LinkedIn" },
-    { href: "https://instagram.com/yourusername", icon: <Instagram className="h-5 w-5" />, label: "Instagram" },
-    { href: "mailto:contact@example.com", icon: <Mail className="h-5 w-5" />, label: "Email" },
+    { href: "https://github.com/chimera-pkg", icon: <Github className="h-5 w-5" />, label: "GitHub" },
+    { href: "https://linkedin.com/in/adryanprawira", icon: <Linkedin className="h-5 w-5" />, label: "LinkedIn" },
+    { href: "https://instagram.com/prawirraa", icon: <Instagram className="h-5 w-5" />, label: "Instagram" },
+    { href: "mailto:adryanmagatsu88@gmail.com", icon: <Mail className="h-5 w-5" />, label: "Email" },
   ]
 
   return (
@@ -45,13 +45,13 @@ export function Hero() {
             className="mb-8"
           >
             <div className="inline-block px-3 py-1 mb-4 rounded-full bg-purple-500/10 border border-purple-500/20 text-purple-500 dark:text-purple-400">
-              <span className="text-sm font-medium">Software Developer</span>
+              <span className="text-sm font-medium">Software Engineer</span>
             </div>
             <h1 className="text-4xl md:text-6xl font-bold font-space text-primary mb-4">
               Adryan <span className="text-purple-500 dark:text-purple-400">Prawira</span>
             </h1>
             <h2 className="text-xl md:text-2xl text-muted-foreground mb-6">
-              Software Developer | IoT | Fullstack Developer
+              Software Engineer | IoT | Fullstack Engineer
             </h2>
             <p className="text-muted-foreground max-w-2xl mb-8">
               Providing innovative solutions for programming needs with a focus on creating elegant, efficient, and
@@ -110,7 +110,7 @@ export function Hero() {
           >
             <div className="absolute inset-0 rounded-full overflow-hidden border-4 border-purple-500 z-10">
               <Image
-                src="/placeholder.svg?height=320&width=320"
+                src="/profile.jpeg?height=320&width=320"
                 alt="Adryan Prawira"
                 fill
                 className={`object-cover transition-transform duration-500 ${isHovered ? "scale-110" : "scale-100"}`}
