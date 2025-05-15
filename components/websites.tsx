@@ -22,6 +22,21 @@ export function Websites() {
       image: "/placeholder.svg?height=600&width=800",
       tags: ["PHP", "Laravel", "Web App"],
     },
+    {
+      title: "SHIPMENT INTERNAL APP",
+      image: "/placeholder.svg?height=600&width=800",
+      tags: ["PHP", "Laravel", "Web App"],
+    },
+    {
+      title: "SKRIBEX - SPENDING TRACKER Landing Page",
+      image: "/placeholder.svg?height=600&width=800",
+      tags: ["PHP", "Laravel", "Web App"],
+    },
+    {
+      title: "SILANCAR - ERP FOR UMKM",
+      image: "/placeholder.svg?height=600&width=800",
+      tags: ["PHP", "Laravel", "Web App"],
+    },
   ]
 
   return (

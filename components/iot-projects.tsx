@@ -24,6 +24,18 @@ export function IoTProjects() {
       image: "/placeholder.svg?height=600&width=800",
       tags: ["Mobile", "IoT", "Flutter", "UI/UX"],
     },
+    {
+      title: "Astranaux",
+      description: "IoT Mobile Application Interface",
+      image: "/placeholder.svg?height=600&width=800",
+      tags: ["Mobile", "IoT", "Flutter", "UI/UX"],
+    },
+    {
+      title: "Vending Machine",
+      description: "IoT Mobile Application Interface",
+      image: "/placeholder.svg?height=600&width=800",
+      tags: ["Mobile", "IoT", "Flutter", "UI/UX"],
+    },
   ]
 
   return (

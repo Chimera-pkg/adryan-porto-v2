@@ -42,6 +42,27 @@ export function MobileApps() {
       ],
       tags: ["Flutter", "Firebase", "GetX"],
     },
+    {
+      title: "Skribex - Spending Tracker",
+      description: "Agile Education Platform Project",
+      images: [
+        "/placeholder.svg?height=600&width=300",
+        "/placeholder.svg?height=600&width=300",
+        "/placeholder.svg?height=600&width=300",
+      ],
+      tags: ["Flutter", "Firebase", "GetX"],
+    },
+    {
+      title: "ITSM MOBILE - ICT INVENTORY MANAGEMENT",
+      description: "Agile Education Platform Project",
+      images: [
+        "/placeholder.svg?height=600&width=300",
+        "/placeholder.svg?height=600&width=300",
+        "/placeholder.svg?height=600&width=300",
+      ],
+      tags: ["Flutter", "Firebase", "GetX"],
+    },
+    
   ]
 
   return (
